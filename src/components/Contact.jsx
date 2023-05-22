@@ -3,7 +3,7 @@ import Title from "./Title";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col mb-10 mx-auto">
+    <div className="flex flex-col mb-10 mx-auto" id="contact">
       <div className="flex justify-center items-center">
         <form
         action="https://getform.io/f/ab1e66f3-37d8-465d-97ed-728495e51c0d"
