@@ -27,7 +27,7 @@ const Contact = () => {
             name="message"
             placeholder="Message"
             rows={10}
-            className="border-2 border-stone-400 rounded-md px-4 py-2 mb-4 focus:outline-none"
+            className="resize-none border-2 border-stone-400 rounded-md px-4 py-2 mb-4 focus:outline-none"
             />
             <input
             type="text"

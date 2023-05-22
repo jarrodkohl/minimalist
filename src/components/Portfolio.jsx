@@ -9,8 +9,9 @@ const Portfolio = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {portfolio.map((item) => (
           <PortfolioItem
-          key={item.title}
+          key={item.id}
           title={item.title}
+          subtitle={item.subtitle}
           imgUrl={item.imgUrl}
           stack={item.stack}
           link={item.link}
