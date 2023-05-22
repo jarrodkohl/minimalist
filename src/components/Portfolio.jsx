@@ -5,7 +5,7 @@ import PortfolioItem from "./PortfolioItem";
 const Portfolio = () => {
   return (
     <div
-    className="flex fle-col md:flex-row items-center justify-center">
+    className="flex fle-col md:flex-row items-center justify-center projects" id="projects">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {portfolio.map((item) => (
           <PortfolioItem
