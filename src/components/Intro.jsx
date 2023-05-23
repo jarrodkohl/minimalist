@@ -1,38 +1,112 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll";
+import { motion } from "framer-motion";
+import Header from "./Header";
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: { delay: 1.5, duration: 1.5 },
+  },
+  exit: {
+    x: "-100vw",
+    transition: { ease: "easeInOut" },
+  },
+};
+
+const childVariants = {
+  hidden: {
+    x: 100,
+    opacity: 0,
+  },
+  visible: {
+    x: 0,
+    opacity: 1,
+    transition: {
+      type: "spring",
+      stiffness: 50,
+      delay: 1.5,
+      duration: 1.5,
+    },
+  },
+  exit: {
+    x: -100,
+    transition: { ease: "easeInOut" },
+  },
+};
+
+const childFadeInVariants = {
+  hidden: { opacity: 0 },
+  visible: { opacity: 1 },
+  transition: { delay: 1.5, duration: 1.5 },
+};
 
 const Intro = () => {
+  const [bostonVisibility, setBostonVisibility] = useState(false);
+
   return (
-    <div className="flex items-center justify-center flex-col text-center pt-20 pb-6 min-h-screen">
-      <h1 className="text-4xl md:text-7xl mb-3 font-bold text-blue-600 transform transition duration-500 hover:scale-105"
-      >
-      Jarrod Kohl</h1>
-      <p className="text-base md:text-xl mb-3 text-blue-600 italic"
-      >Software Engineer & Web Designer</p>
-      <p className="text-sm max-w-4xl mb-6 text-gray-800"
-      >Hello, I am a Boston-based software developer. Fusing a background in real estate with a passion for technology, I deliver tailored software solutions and custom designed websites that offer seamless user experiences and efficient operations. Let me help you to drive growth through web design and technology.</p>
-      <div className="flex gap-4">
-        <Link 
-          to="contact"
-          spy={true} 
-          smooth={true} 
-          className="px-4 py-2 rounded-full border-blue-500 border-2 text-blue-500 hover:bg-blue-500 hover:text-white shadow hover:shadow-lg transition duration-300"
-         >Contact</Link>
-        <Link 
-          to="projects" 
-          spy={true} 
-          smooth={true} 
-          className="px-4 py-2 rounded-full border-blue-500 border-2 text-blue-500 hover:bg-blue-500 hover:text-white shadow hover:shadow-lg transition duration-300"
-          >Projects</Link>
-        <Link 
-          to="timeline" 
-          spy={true} 
-          smooth={true} 
-          className="px-4 py-2 rounded-full border-blue-500 border-2 text-blue-500 hover:bg-blue-500 hover:text-white shadow hover:shadow-lg transition duration-300"
-          >Timeline</Link>
+    <>
+    <Header />
+    
+    <motion.div
+      className="relative flex items-center justify-center flex-col text-center pt-20 pb-6 min-h-screen"
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+    >
+      {bostonVisibility && (
+        <div style={{
+          backgroundImage: 'url("public/assets/Boston_skline_Splash.png")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          opacity: 0.5,
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          zIndex: -1
+        }}/>
+      )}
+      <div className="relative z-10 bg-white bg-opacity-60 rounded-xl">
+        <div className="relative">
+          <motion.h1
+            className="text-4xl md:text-7xl mb-3 font-bold text-blue-600 transform transition duration-500 hover:scale-115"
+            variants={childVariants}
+          >
+            Jarrod Kohl
+          </motion.h1>
+          
+        </div>
+        <motion.p
+          className="text-base md:text-xl mb-3 text-blue-600 italic"
+          variants={childVariants}
+        >
+          Software Engineer & Web Designer
+        </motion.p>
+        <motion.p
+          className="text-md max-w-4xl mb-6 text-gray-800"
+          variants={childFadeInVariants}
+        >
+          Hello, I am a{" "}
+          <span 
+          onClick={() => setBostonVisibility(!bostonVisibility)}
+          className="cursor-pointer hover:text-blue-600 transition duration-300 text-bold text-blue-600"
+          >
+            Boston
+          </span>
+          -based software developer. Fusing a background in real estate with a
+          passion for technology, I deliver tailored software solutions and custom
+          designed websites that offer seamless user experiences and efficient
+          operations. Let me help you to drive growth through web design and
+          technology.
+        </motion.p>
       </div>
-    </div>
-  )
-}
+    </motion.div>
+    </>
+  );
+};
 
 export default Intro;
