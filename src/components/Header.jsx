@@ -12,7 +12,7 @@ const Header = () => {
           spy={true}
           smooth={true}
           onSetActive={() => setActiveSection('projects')}
-          className="px-4 py-2 rounded-full border-blue-500 border-2 text-blue-500 hover:bg-blue-500 hover:text-white shadow hover:shadow-lg transition duration-300"
+          className="px-4 py-2 rounded-full border-blue-500 border-2 text-blue-500 hover:bg-blue-500 hover:text-white shadow hover:shadow-lg transition duration-300 transition-all duration-300 ease-in-out transform hover:-translate-y-1"
         >
           Projects
         </Link>
@@ -23,7 +23,7 @@ const Header = () => {
           spy={true}
           smooth={true}
           onSetActive={() => setActiveSection('timeline')}
-          className="px-4 py-2 rounded-full border-blue-500 border-2 text-blue-500 hover:bg-blue-500 hover:text-white shadow hover:shadow-lg transition duration-300"
+          className="px-4 py-2 rounded-full border-blue-500 border-2 text-blue-500 hover:bg-blue-500 hover:text-white transition-all duration-300 ease-in-out transform hover:-translate-y-1"
         >
           Timeline
         </Link>
@@ -34,7 +34,7 @@ const Header = () => {
           spy={true}
           smooth={true}
           onSetActive={() => setActiveSection('contact')}
-          className="px-4 py-2 rounded-full border-blue-500 border-2 text-blue-500 hover:bg-blue-500 hover:text-white shadow hover:shadow-lg transition duration-300"
+          className="px-4 py-2 rounded-full border-blue-500 border-2 text-blue-500 hover:bg-blue-500 hover:text-white shadow hover:shadow-lg transition duration-300 transition-all duration-300 ease-in-out transform hover:-translate-y-1"
         >
           Contact
         </Link>

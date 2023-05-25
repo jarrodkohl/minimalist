@@ -3,7 +3,10 @@ import React from "react";
 const PortfolioItem = ({ title, imgUrl, stack, link, subtitle }) => {
 
   return (
-    <div className="border-2 border-stone-400 rounded-md shadow-md mx-2">
+    <div 
+    className="border-2 border-stone-400 rounded-md shadow-md mx-2 transition-all transform hover:scale-105 duration-300 ease-in-out cursor-pointer"
+    onClick={() => window.open(link, "_blank")}
+    >
       <img
       src={imgUrl}
       alt="portfolio"
