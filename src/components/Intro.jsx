@@ -70,7 +70,7 @@ const Intro = () => {
           zIndex: -1
         }}/>
       )}
-      <div className="relative z-10 bg-white bg-opacity-60 rounded-xl">
+      <div className="text-left bg-white bg-opacity-60 rounded-xl left-0 mr-auto px-2 mt-12">
         <div className="relative">
           <motion.h1
             className="text-4xl md:text-7xl mb-3 font-bold text-blue-600 transform transition duration-500 hover:scale-115 transition-all duration-300 ease-in-out transform hover:-translate-y-1"
@@ -87,7 +87,7 @@ const Intro = () => {
           Software Engineer & Web Designer
         </motion.p>
         <motion.p
-          className="text-md max-w-4xl mb-6 text-gray-800"
+          className="text-md max-w-2xl mb-6 text-gray-800"
           variants={childFadeInVariants}
         >
           Hello, I am a{" "}
