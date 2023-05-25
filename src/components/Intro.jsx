@@ -73,7 +73,7 @@ const Intro = () => {
       <div className="relative z-10 bg-white bg-opacity-60 rounded-xl">
         <div className="relative">
           <motion.h1
-            className="text-4xl md:text-7xl mb-3 font-bold text-blue-600 transform transition duration-500 hover:scale-115"
+            className="text-4xl md:text-7xl mb-3 font-bold text-blue-600 transform transition duration-500 hover:scale-115 transition-all duration-300 ease-in-out transform hover:-translate-y-1"
             variants={childVariants}
           >
             Jarrod Kohl
