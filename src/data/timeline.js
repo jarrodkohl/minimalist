@@ -3,7 +3,7 @@ export default [
     year: "2023",
     title: "Freelance Developer",
     duration: "Feb 2023 - Present",
-    details: "Freelanced as a web developer, building applications using JavaScript, React, Next.js, Node.js, and other technologies. Worked with clients to understand their needs and deliver high-quality solutions. Utilized GitHub to manage code and collaborate with others. Developed strong design skills and created user-friendly interfaces.",
+    details: "Freelanced as a web developer and designer, building applications using JavaScript, React, Next.js, Wordpress and Webflow as well as other technologies. Worked with clients to understand their needs and deliver high-quality solutions. Utilized GitHub to manage code and collaborate with others. Developed strong design skills and created user-friendly interfaces.",
     id: 4,
   },
   {
