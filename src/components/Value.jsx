@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 
 const Value = () => {
   const { ref, inView } = useInView({
-    triggerOnce: true, // Trigger the animation only once
-    threshold: 0.1,    // Percentage of the element is visible
+    triggerOnce: true, 
+    threshold: 0.2,   
   });
 
   return (
     <div
-      className="md:flex justify-between my-10 px-4 p-10 rounded-xl"
+      className="md:flex justify-between my-20 px-4 p-10 rounded-xl"
       id="value"
       ref={ref}
     >
@@ -40,13 +40,16 @@ const Value = () => {
         animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
         transition={{ duration: 1, delay: 0.5 }}
       >
-        <h3 className="text-2xl mb-4 text-blue-700">What I bring to the table:</h3>
+        <h3 className="text-2xl mb-4 text-blue-700">Your Digital Superpower:</h3>
         <ul className="list-disc list-inside text-lg">
-          <li>Specialized in creating fast, SEO-optimized websites and applications in Wordpress and Webflow</li>
-          <li>Adept at converting site visitors into leads and accelerating sales</li>
-          <li>Proficient in infusing intelligence into your digital presence with AI skills</li>
-          <li>Experience in creating custom integrations tailored to supercharge your business processes, drive efficiency, and deliver a superior user experience</li>
+          <li>Lightning-fast, SEO-optimized sites that climb search rankings</li>
+          <li>Highly engaging designs that capture a users attention</li>
+          <li>Expert lead conversion strategies to transform visitors into customers</li>
+          <li>AI-powered tech that breathes intelligence into your digital presence</li>
+          <li>Blogs that are SEO supercharged and written for you in your voice</li>
+          <li>Superior user experiences that enhance engagement and loyalty</li>
         </ul>
+
        
       </motion.div>
     </div>
