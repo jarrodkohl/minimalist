@@ -16,11 +16,11 @@ export default [
     id: 2,
   },
   {
-    title: "JarvisPy",
-    subtitle: "A voice assistant built for speed!",
-    imgUrl: "assets/Stripe Web 0.png",
-    stack: ["React", "Python", "Typescript", "Flask", "mongoDB"],
-    link: "https://github.com/jarrodkohl/jarvisPy",
+    title: "WebFluence Digital",
+    subtitle: "CMS Website built for a media company. Complete with Logo and design services",
+    imgUrl: "assets/Webfluence.png",
+    stack: ["Webflow", "AI", "CSS", "PHP", "Marketing"],
+    link: "http://webfluencedigital.org/",
     id: 3,
   },
 ]
