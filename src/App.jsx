@@ -5,6 +5,7 @@ import Intro from './components/Intro'
 import Portfolio from './components/Portfolio'
 import Timeline from './components/Timeline'
 import { useEffect, useState } from 'react'
+import Value from './components/Value'
 
 
 
@@ -16,6 +17,7 @@ const App = () => {
       <div className='App'>
         <Intro />
         <Portfolio />
+        <Value />
         <Timeline />
         <Contact />
         <Footer />
