@@ -1,4 +1,12 @@
 export default [
+  
+  {
+    year: "2024",
+    title: "Software Engineer. Nursedash",
+    duration: "Aug 2023 - Present",
+    details: "As a Software Engineer at NurseDash, I focus on crafting scalable web and mobile applications with JavaScript, TypeScript, and React Native, leveraging agile methodologies to align development with business goals.",
+    id: 5,
+  },
   {
     year: "2023",
     title: "Freelance Developer",
@@ -26,12 +34,5 @@ export default [
     duration: "Aug 2017 - Aug 2021",
     details: "Launched the Unit Realty property management division and exceeded forecasted growth goals using Agile methodologies. Tracked financial costs and work orders to keep an efficient maintenance program for clients. Analyzed market trends to help client companies make revenue positive real estate decisions.",
     id: 3,
-  },
-  {
-    year: "2024",
-    title: "Software Engineer. Nursedash",
-    duration: "Aug 2023 - Present",
-    details: "As a Software Engineer at NurseDash, I focus on crafting scalable web and mobile applications with JavaScript, TypeScript, and React Native, leveraging agile methodologies to align development with business goals.",
-    id: 5,
   }
 ]
