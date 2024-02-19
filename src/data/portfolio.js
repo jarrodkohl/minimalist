@@ -16,11 +16,11 @@ export default [
     id: 2,
   },
   {
-    title: "WebFluence Digital",
-    subtitle: "CMS Website built for a media company. Complete with Logo and design services",
-    imgUrl: "assets/Webfluence.png",
+    title: "Rockin K Ranch",
+    subtitle: "CMS Website built for an equestrian farm. Complete with copy write and  design services",
+    imgUrl: "assets/heidi.jpeg",
     stack: ["Webflow", "AI", "CSS", "PHP", "Marketing"],
-    link: "http://webfluencedigital.org/",
+    link: "https://www.rockinkohio.com/",
     id: 3,
   },
 ]

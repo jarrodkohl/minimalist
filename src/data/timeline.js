@@ -1,6 +1,13 @@
 export default [
   {
     year: "2023",
+    title: "Software Developer, Nursedash",
+    duration: "August 2023 - Present",
+    details: "Actively developing and maintaining web applications using JavaScript, Retool, and TypeScript, ensuring high-quality, scalable, and efficient software solutions. Assisted in the development of mobile applications using React Native for the front-end and Ruby and C# on the back-end, contributing to enhanced mobile responsiveness and user experience. Engaged in collaborative software development as part of a dynamic team, contributing to various projects with a focus on agile methodologies. Utilized agile development practices, including Scrum, to manage and streamline workflows, ensuring timely delivery of projects. Collaborated closely with cross-functional teams, including QA, design, and product management, to align development efforts with business objectives and user needs.",
+    id: 5
+  },
+  {
+    year: "2023",
     title: "Freelance Developer",
     duration: "Feb 2023 - Present",
     details: "Freelanced as a web developer and designer, building applications using JavaScript, React, Next.js, Wordpress and Webflow as well as other technologies. Worked with clients to understand their needs and deliver high-quality solutions. Utilized GitHub to manage code and collaborate with others. Developed strong design skills and created user-friendly interfaces.",
