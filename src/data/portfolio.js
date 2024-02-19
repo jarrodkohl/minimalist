@@ -16,8 +16,9 @@ export default [
     id: 2,
   },
   {
-    title: "Rockin K Ranch",
-    subtitle: "CMS Website built for an equestrian farm. Complete with copy write and  design services",
+
+    title: "RockinK Ranch",
+    subtitle: "CMS Website built for a horse farm. Complete with copywriting and design services",
     imgUrl: "assets/heidi.jpeg",
     stack: ["Webflow", "AI", "CSS", "PHP", "Marketing"],
     link: "https://www.rockinkohio.com/",

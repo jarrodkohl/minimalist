@@ -1,4 +1,12 @@
 export default [
+  
+  {
+    year: "2024",
+    title: "Software Engineer. Nursedash",
+    duration: "Aug 2023 - Present",
+    details: "As a Software Engineer at NurseDash, I focus on crafting scalable web and mobile applications with JavaScript, TypeScript, and React Native, leveraging agile methodologies to align development with business goals.",
+    id: 5,
+  },
   {
     year: "2023",
     title: "Software Developer, Nursedash",
