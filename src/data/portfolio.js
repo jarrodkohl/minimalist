@@ -16,6 +16,7 @@ export default [
     id: 2,
   },
   {
+
     title: "RockinK Ranch",
     subtitle: "CMS Website built for a horse farm. Complete with copywriting and design services",
     imgUrl: "assets/heidi.jpeg",
