@@ -1,5 +1,4 @@
 export default [
-  
   {
     year: "2024",
     title: "Software Engineer. Nursedash",
