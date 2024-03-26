@@ -106,8 +106,8 @@ const Intro = () => {
         </div>
         <div className="mt-6 md:mt-0 relative w-64 h-64 md:w-96 md:h-96">
           <img
-            src="assets/WRfenway0264-min.jpg"
-            alt="picture of jarrod looking awesome"
+            src="assets/WRfenway0264.jpg"
+            alt="picture of Jarrod looking awesome"
             className="absolute inset-0 w-full h-full object-cover rounded-xl shadow-lg"
           />
           <div className="absolute inset-0 rounded-xl shadow-lg"></div>

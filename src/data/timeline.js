@@ -1,9 +1,9 @@
 export default [
   {
     year: "2024",
-    title: "Software Engineer. Nursedash",
-    duration: "Aug 2023 - Present",
-    details: "As a Software Engineer at NurseDash, I focus on crafting scalable web and mobile applications with JavaScript, TypeScript, and React Native, leveraging agile methodologies to align development with business goals.",
+    title: "Software Developer, Nursedash",
+    duration: "August 2023 - Feb 2024",
+    details: "Actively developing and maintaining web applications using JavaScript, Retool, and TypeScript, ensuring high-quality, scalable, and efficient software solutions. Assisted in the development of mobile applications using React Native for the front-end and Ruby and C# on the back-end, contributing to enhanced mobile responsiveness and user experience. Engaged in collaborative software development as part of a dynamic team, contributing to various projects with a focus on agile methodologies. Utilized agile development practices, including Scrum, to manage and streamline workflows, ensuring timely delivery of projects. Collaborated closely with cross-functional teams, including QA, design, and product management, to align development efforts with business objectives and user needs.",
     id: 5,
   },
   {
