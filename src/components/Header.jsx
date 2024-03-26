@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 w-full bg-white bg-opacity-60 z-20 flex justify-between p-4 gap-4 items-center">
-      <img src={Logo} alt="Logo" className="h-10 w-auto" /> {/* Adjust the h-10 (height) as needed */}
+      <img src={Logo} alt="Logo" className="h-10 w-auto" />
       <div className="flex gap-4">
         {activeSection !== 'projects' && (
           <Link

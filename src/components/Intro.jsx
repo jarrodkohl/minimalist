@@ -58,7 +58,7 @@ const Intro = () => {
     >
       {bostonVisibility && (
         <div style={{
-          backgroundImage: 'url("public/assets/Boston_skline_Splash.png")',
+          backgroundImage: 'url("assets/Boston_skline_Splash.png")',
           backgroundSize: "cover",
           backgroundPosition: "center",
           opacity: 0.5,
@@ -106,7 +106,7 @@ const Intro = () => {
         </div>
         <div className="mt-6 md:mt-0 relative w-64 h-64 md:w-96 md:h-96">
           <img
-            src="public/assets/WRfenway0264-min.jpg"
+            src="assets/WRfenway0264-min.jpg"
             alt="picture of jarrod looking awesome"
             className="absolute inset-0 w-full h-full object-cover rounded-xl shadow-lg"
           />
