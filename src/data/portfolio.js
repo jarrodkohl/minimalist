@@ -10,7 +10,7 @@ export default [
   {
     title: "Content Agent Ai",
     subtitle: "Harnesses Ai to create and schedule social media content for real estate agents.",
-    imgUrl: "public/assets/AgentAiLanding.png",
+    imgUrl: "assets/AgentAiLanding.png",
     stack: ["React", "TailwindCSS", "JavaScript", "Next.js", "mongoDB"],
     link: "https://github.com/jarrodkohl/token-content",
     id: 2,
